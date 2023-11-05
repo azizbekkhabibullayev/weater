@@ -1,0 +1,63 @@
+body {
+    background-color: #eeede2;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+   }
+   
+   .container {
+    max-width: 500px;
+    width: 100%;
+   }
+   
+   .card {
+    margin-top: 100px;
+   }
+   
+   .icon {
+    position: relative;
+    top: -50px;
+    background-color: #fff;
+    border-radius: 50%;
+   }
+   
+   .overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 999;
+   }
+   
+   .modal-own {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin: 0;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+   }
+   
+   .btn-close:focus {
+    outline: none;
+   }
+   
+   #open {
+    z-index: 55;
+   }
+   
